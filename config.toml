@@ -1,7 +1,8 @@
-baseurl = "http://scottgallant.github.io/deploy-test"
+baseURL = "http://thehillsoundstudio.com"
 languagecode = "en-us"
-pluralizelisttitles = false
 title = "The Hill Sound Studio"
+[params]
+  description = "The Hill Sound Studio is a full service Audio Production company based in Prince Edward Island, Canada."
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -14,5 +15,3 @@ weight = 2
 name = "Contact"
 url = "/contact"
 weight = 3
-[params]
-description = "The Hill Sound Studio is a full service Audio Production company based in Prince Edward Island, Canada."

@@ -1,7 +1,8 @@
+name = "Adam Gallant"
+phone = "(902)367-8987"
 address1 = "The Hill Sound Studio"
 address2 = "29 Upper Hillsborough St."
 address3 = "Charlottetown, PE"
-copyright = "The Hill Sound Studio Inc. All rights reserved"
 email = "thehillsoundstudio@gmail.com"
-name = "Adam Gallant"
-phone = "(902)367-8987"
+
+copyright = "The Hill Sound Studio Inc. All rights reserved"
