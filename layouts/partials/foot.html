@@ -1,0 +1,74 @@
+<!-- Footer -->
+        <div id="footer">
+          <div class="container">
+            <div class="row">
+              <section class="3u 6u(narrower) 12u$(mobilep)">
+                <h3>Contact</h3>
+                <ul class="links">
+                  <li>{{.Site.Data.footer.site_footer.name}}</li>
+                  <li>{{.Site.Data.footer.site_footer.phone}}</li>
+                  <li>{{.Site.Data.footer.site_footer.address1}}</li>
+                  <li>{{.Site.Data.footer.site_footer.address2}}</li>
+                  <li>{{.Site.Data.footer.site_footer.address3}}</li>
+                  <li><a href="mailto:{{.Site.Data.footer.site_footer.email}}" class="href">{{.Site.Data.footer.site_footer.email}}</a></li>
+                </ul>
+              </section>
+              <section class="3u 6u$(narrower) 12u$(mobilep)">
+              </section>
+              <section class="6u 12u(narrower)">
+                <form method="POST" action="http://formspree.io/{{.Site.Data.footer.site_footer.email}}" id="contactForm">
+                  <div class="row 50%">
+                    <div class="6u 12u(mobilep)">
+                      <input type="text" name="name" id="name" placeholder="Name" />
+                    </div>
+                    <div class="6u 12u(mobilep)">
+                      <input type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+                  </div>
+                  <div class="row 50%">
+                    <div class="12u">
+                      <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+                    </div>
+                  </div>
+                  <div class="row 50%">
+                    <div class="12u">
+                      <ul class="actions">
+                        <li><input type="submit" class="button alt" value="Send Message" /></li>
+                      </ul>
+                    </div>
+                  </div>
+                </form>
+              </section>
+            </div>
+          </div>
+          <p>&nbsp;</p>
+          <!-- Icons -->
+            <ul class="icons">
+              <li><a href="https://twitter.com/thehillsound" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="https://www.facebook.com/thehillsoundstudio" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="https://www.instagram.com/thehillsoundstudio/" class="icon fa-instagram"><span class="label">LinkedIn</span></a></li>
+            </ul>
+
+          <!-- Copyright -->
+            <div class="copyright">
+              <ul class="menu">
+                <li>&copy; {{.Site.Data.footer.site_footer.copyright}}</li>
+              </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
+      <script src="{{ .Site.BaseURL }}/js/jquery.dropotron.min.js"></script>
+      <script src="{{ .Site.BaseURL }}/js/skel.min.js"></script>
+      <script src="{{ .Site.BaseURL }}/js/util.js"></script>
+      <!--[if lte IE 8]><script src="{{ .Site.BaseURL }}/js/ie/respond.min.js"></script><![endif]-->
+      <script src="{{ .Site.BaseURL }}/js/main.js"></script>
+      {{ with .Site.Params.googleAnalytics }}
+      {{ end }}
+
+  </body>
+</html>
