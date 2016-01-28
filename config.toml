@@ -1,4 +1,4 @@
-baseurl = "http://scottgallant.github.io/deploy-test/"
+baseurl = "http://scottgallant.github.io/deploy-test"
 languagecode = "en-us"
 pluralizelisttitles = false
 title = "The Hill Sound Studio"
