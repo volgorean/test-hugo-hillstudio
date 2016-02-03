@@ -9,9 +9,10 @@
     <div class="row 200%">
       {{ range .Params.images }}
         <section class="3u 12u(narrower)">
+        <h1> {{ .Site.BaseURL }}</h1>
           <div class="box highlight">
             <div class="headshot">
-              <img src="{{ .Site.BaseURL }}/{{ .img }}" alt="{{ .caption }}">
+              <img src="{{ .Site.BaseURL }}{{ .img }}" alt="{{ .caption }}">
             </div>
             <h3>{{ .name }}</h3>
             <p>{{ .caption | markdownify }}</p>
