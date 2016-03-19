@@ -2,17 +2,6 @@ baseurl = "http://scottgallant.github.io"
 languagecode = "en-us"
 pluralizelisttitles = false
 title = "The Hill Sound Studio"
-[blackfriday]
-AngledQuotes = false
-Extensions = ""
-ExtensionsMask = ""
-Fractions = true
-HrefTargetBlank = false
-LatexDashes = true
-PlainIDAnchors = false
-SmartDashes = true
-Smartypants = true
-SourceRelativeLinksEval = false
 [[menu.main]]
 name = "Home"
 url = "/"
