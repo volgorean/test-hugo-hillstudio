@@ -6,4 +6,3 @@ image = ""
 title = "post with draft false"
 
 +++
-
