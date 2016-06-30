@@ -5,7 +5,7 @@ title = "walky"
 type = "contact"
 [menu.main]
 name = "New menu link"
-weight = 5
+weight = 4
 
 +++
 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.
