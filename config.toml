@@ -15,7 +15,7 @@ name = "Contact"
 url = "/contact"
 weight = 3
 [params]
-description = "Update from ATOM"
+description = "Update from GUI GUIJ GUI"
 [sitemap]
 ChangeFreq = ""
 Filename = "sitemap.xml"
