@@ -15,7 +15,7 @@ name = "Contact"
 url = "/contact"
 weight = 3
 [params]
-description = "The Hill Sound Studio is a full service Audio Production company based in Prince Edward Island, Canada."
+description = "test\r\n"
 [sitemap]
 ChangeFreq = ""
 Filename = "sitemap.xml"
